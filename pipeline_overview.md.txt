@@ -1,0 +1,7 @@
+# Pipeline Overview
+
+1. Raw NYC taxi dataset loaded into Databricks
+2. Data stored in Delta tables
+3. SQL transformations performed
+4. Aggregated metrics generated
+5. Dashboard created for visualization

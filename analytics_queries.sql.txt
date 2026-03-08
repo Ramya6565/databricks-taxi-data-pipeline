@@ -1,0 +1,7 @@
+SELECT
+  DATE(tpep_pickup_datetime) AS trip_date,
+  COUNT(*) AS total_trips,
+  SUM(total_amount) AS total_revenue
+FROM taxi_trips
+GROUP BY trip_date
+ORDER BY trip_date;
